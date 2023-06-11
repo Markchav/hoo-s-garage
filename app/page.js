@@ -1,7 +1,5 @@
-import 'dotenv/config'
 import React from 'react'
 import Navbar from './components/Navbar'
-
 import img2 from '../public/images/bmw-ScreenShot.png'
 import Footer from './components/Footer'
 import Services from './components/Services'
@@ -12,7 +10,6 @@ import Work from './components/Work'
 
 export default function HomePage() {
 
-  const test = process.env.NO_REAL_DATA
   
   return (
     <div className='bg-gray-200'>
