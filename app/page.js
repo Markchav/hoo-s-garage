@@ -11,7 +11,6 @@ import img8 from '../public/images/bmw-bg.jpg'
 import Work from './components/Work'
 
 export default function HomePage() {
-  console.log(process.env)
 
   const test = process.env.NO_REAL_DATA
   

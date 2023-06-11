@@ -20,8 +20,5 @@
     "react-icons": "^4.9.0",
     "react-responsive-carousel": "^3.2.23",
     "tailwindcss": "3.3.2"
-  },
-  "resolutions": {
-    "react-map-gl": "5.2.12"
   }
 }

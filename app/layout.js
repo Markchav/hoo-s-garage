@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import 'dotenv/config'
-console.log(process.env);
+
 
 const inter = Inter({ subsets: ['latin'] })
 
