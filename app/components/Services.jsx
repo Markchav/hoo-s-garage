@@ -23,7 +23,7 @@ return (
         </div>
     </div>
     </div>
-    <div className="flex flex-wrap -mx-4 ">
+    {/* <div className="flex flex-wrap -mx-4 ">
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto ">
             <div className=" p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200 shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
@@ -102,7 +102,7 @@ return (
             </p>
         </div>
     </div>
-    </div>
+    </div> */}
 </div>
 )
 }
