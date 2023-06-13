@@ -6,7 +6,7 @@ import Work from './components/Work'
 
 export default function HomePage() {
 
-  
+
   return (
     <div className='bg-gray-200'>
     <div id='home' className='widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8  '>

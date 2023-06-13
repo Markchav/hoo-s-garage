@@ -27,7 +27,7 @@ return (
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto ">
             <div className=" p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200 shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className="" src={img3} width={160} height={50} alt="Card image"/>
+                <Image className="" src='/../public/images/new-rim.png' width={160} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
                 RIM PAINTING
@@ -40,7 +40,7 @@ return (
     <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
         <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
         <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center bg-primary rounded-2xl mb-8 mx-auto">
-                <Image className="" src={img4} width={200} height={50} alt="Card image"/>
+                <Image className="" src='/../public/images/caliper.png' width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
             CALIPER PAINTING
@@ -53,7 +53,7 @@ return (
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
             <a href='https://www.instagram.com/p/CiDzGpgDyPG/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className="" src={img6} width={200} height={50} alt="Card image"/>
+                <Image className="" src='/../public/images/suspension.jpg' width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
             BRAKES AND SUSPENSION  
@@ -66,7 +66,7 @@ return (
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className="h-44" src={img7} width={200} height={200} alt="Card image"/>
+                <Image className="h-44" src='/../public/images/modi.jpg' width={200} height={200} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
             PERFORMANCE MODIFICATIONS
@@ -79,7 +79,7 @@ return (
         <div className="md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-            <Image className="" src={img8} width={200} height={50} alt="Card image"/>
+            <Image className="" src='/../public/images/body-kit.jpg' width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
             BODY AND LIT KITS
@@ -92,7 +92,7 @@ return (
     <div className="md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
         <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CkWTgbZuAdZ/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8 ">
-            <Image className="" src={img9} width={200} height={50} alt="Card image"/>
+            <Image className="" src='/../public/images/wrap.jpg' width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
             WRAP AND CHROME DELETE
