@@ -1,7 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import img2 from '../../public/images/bmw-ScreenShot.png'
-import img11 from '../../public/images/calipers.png'
+import img3 from '../../public/images/rim-painting.PNG'
+import img4 from '../../public/images/caliper.PNG'
+import img6 from '../../public/images/suspension.JPG'
+import img7 from '../../public/images/modi.JPG'
+import img8 from '../../public/images/body-kit.jpg'
+import img9 from '../../public/images/wrap.JPG'
+import img10 from '../../public/images/new-rim.png'
+
+// import img11 from '../../public/images/calipers.png'
 
 export default function Services() {
   return (
@@ -23,84 +30,78 @@ export default function Services() {
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto ">
             <div className=" p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200 shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className="w-full" src={img2} width={50} height={50} alt="Card image"/>
+                <Image className=" " src={img10} width={160} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
-                Rim Painting
+                RIM PAINTING
             </h4>
             <p className="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                quality, service, integrity & aesthetics.
+            A thorough inspection of your rims to assess their condition and identify any imperfections such as scratches,chips,or corrosion.
             </p>
             </div>
         </div>
     <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
         <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
         <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center bg-primary rounded-2xl mb-8 mx-auto">
-                <Image className="w-full" src={img11} width={50} height={50} alt="Card image"/>
+                <Image className="" src={img4} width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
-            Caliper Painting
+            CALIPER PAINTING
             </h4>
             <p className="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                quality, service, integrity & aesthetics.
+            Offers a cosmetic enhancement to your vehicle&apos;s brake system, providing a unique and personalized touch of style and customization to your wheels
             </p>
         </div>
     </div>
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
             <a href='https://www.instagram.com/p/CLt4bRPlwsY/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className="w-full" src={img2} width={50} height={50} alt="Card image"/>
+                <Image className="" src={img6} width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
-            Headlight Restoration
+            BRAKES AND SUSPENSION  
             </h4>
             <p className="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+            Ensures your vehicle&apos;s safety, stability, and optimal performance on the road, providing expert care and maintenance for your vehicle.
             </p>
         </div>
         </div>
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className="w-full" src={img2} width={50} height={50} alt="Card image"/>
+                <Image className="h-44" src={img7} width={200} height={200} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
-            Chrome Delete
+            PERFORMANCE MODIFICATIONS
             </h4>
             <p className="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+            We specialize in enhancing your vehicle&apos;s power, speed, and overall performance, providing an exhilarating driving experience like no other.
             </p>
         </div>
         </div>
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-            <Image className="w-full" src={img2} width={50} height={50} alt="Card image"/>
+            <Image className="" src={img8} width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
-            Curb Rash Repair
+            BODY AND LIT KITS
             </h4>
             <p className="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+            Transform the look of your vehicle with our body and lip kits, designed to enhance its aesthetics and give it a unique and stylish appearance. 
             </p>
         </div>
     </div>
     <div className="md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
         <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8 ">
-            <Image className="w-full" src={img2} width={50} height={50} alt="Card image"/>
+            <Image className="" src={img9} width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
-            Body Kit Installation
+            WRAP AND CHROME DELETE
             </h4>
             <p className="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+            Revitalize the look of your vehicle with our wrap and chrome delete services, offering a quick and cost-effective way to transform its appearance
             </p>
         </div>
     </div>

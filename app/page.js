@@ -1,11 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import img2 from '../public/images/bmw-ScreenShot.png'
 import Footer from './components/Footer'
 import Services from './components/Services'
-import img6 from '../public/images/dsc08200.jpg'
-import img7 from '../public/images/toyota.jpeg'
-import img8 from '../public/images/bmw-bg.jpg'
 import Work from './components/Work'
 
 export default function HomePage() {

@@ -48,7 +48,7 @@ return (
             {/* Mobile Menu */}
             <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center h-screen bg-white w-full text-center ease-in duration-300'
             :'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-transparent text-center ease-in duration-300'} >
-            <ul className='px-10 items-center justify-between flex flex-col gap-5'>
+            <ul className='px-10 items-center justify-between flex flex-col gap-5 text-lg'>
                 <li onClick={handleNav} className=''>
                 <a href="#home" className="text-gray-700 hover:text-gray-900">Home</a>
                 </li>
