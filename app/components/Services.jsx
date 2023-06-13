@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import img3 from '../../public/images/rim-painting.PNG'
+
 import img4 from '../../public/images/caliper.PNG'
 import img6 from '../../public/images/suspension.JPG'
 import img7 from '../../public/images/modi.JPG'
