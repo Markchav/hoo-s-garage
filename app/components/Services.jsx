@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import img3 from '../../public/images/new-rim.png'
-import img4 from '../../public/images/caliper.PNG'
-import img6 from '../../public/images/suspension.JPG'
-import img7 from '../../public/images/modi.JPG'
+import img4 from '../../public/images/caliper.png'
+import img6 from '../../public/images/suspension.jpg'
+import img7 from '../../public/images/modi.jpg'
 import img8 from '../../public/images/body-kit.jpg'
-import img9 from '../../public/images/wrap.JPG'
+import img9 from '../../public/images/wrap.jpg'
 
 
 export default function Services() {
@@ -53,7 +53,7 @@ return (
     </div>
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
-            <a href='https://www.instagram.com/p/CLt4bRPlwsY/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
+            <a href='https://www.instagram.com/p/CiDzGpgDyPG/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
                 <Image className="" src={img6} width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
@@ -77,7 +77,7 @@ return (
             </p>
         </div>
         </div>
-        <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
+        <div className="md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
             <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
             <Image className="" src={img8} width={200} height={50} alt="Card image"/>
@@ -92,7 +92,7 @@ return (
     </div>
     <div className="md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto">
         <div className="p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200  shadow-md hover:shadow-lg mb-8 shadow-slate-400">
-            <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8 ">
+            <a href='https://www.instagram.com/p/CkWTgbZuAdZ/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8 ">
             <Image className="" src={img9} width={200} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
