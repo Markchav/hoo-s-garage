@@ -7,7 +7,6 @@ import img7 from '../../public/images/modi.jpg'
 import img8 from '../../public/images/body-kit.jpg'
 import img9 from '../../public/images/wrap.jpg'
 
-
 export default function Services() {
 return (
     <div className="container">
