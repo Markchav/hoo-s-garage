@@ -18,7 +18,7 @@ export default function HomePage() {
     </div>
         
 {/* Home Section */}
-      <div className='flex items-center justify-center h-[600px] sm:h-[680px] max-lg:h-[485px] mb-12 sm:bg-fixed bg-center bg-[url(../public/images/bmw-edit.png)] sm:bg-cover bg-[length:400px_300px]'/>
+      <div className='flex items-center justify-center h-[600px] sm:h-[680px] max-lg:h-[485px] mb-12 sm:bg-fixed bg-center bg-[url(../public/images/bmw-edit.png)] sm:bg-cover bg-[length:620px_600px]'/>
       <section className='text-center max-w-2xl justify-center mx-auto flex-col'>
       {/* <Image src={img6} alt=''/> */}
         <div className='flex-col space-y-10'>
