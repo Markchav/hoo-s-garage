@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
-import rim from '../../public/images/new-rim.png'
-import caliper from '../../public/images/caliper.png'
-import suspension from '../../public/images/suspension.jpg'
-import modi from '../../public/images/modi.jpg'
-import body from '../../public/images/body-kit.jpg'
-import wrap from '../../public/images/wrap.jpg'
+import rim from '/public/images/new-rim.png'
+import caliper from '/public/images/caliper.png'
+import suspension from '/public/images/suspension.jpg'
+import modi from '/public/images/modi.jpg'
+import body from '/public/images/body-kit.jpg'
+import wrap from '/public/images/wrap.jpg'
 
 export default function Services() {
 return (
