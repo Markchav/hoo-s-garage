@@ -16,7 +16,6 @@ export default function HomePage() {
 {/* Home Section */}
       <div className='flex items-center justify-center h-[450px] sm:h-[680px] max-lg:h-[485px] mb-12 sm:bg-fixed bg-center sm:bg-[url(../public/images/bmw-edit.png)] bg-[url(../public/images/bmw-second.png)] sm:bg-cover bg-[length:650px_450px]'/>
       <section className='text-center max-w-2xl justify-center mx-auto flex-col'>
-      {/* <Image src={img6} alt=''/> */}
         <div className='flex-col space-y-10'>
         <h1 className='font-bold text-4xl'>
         WHAT IS HOO&apos;S GARAGE?

@@ -1,17 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-
+import img3 from '../../public/images/new-rim.png'
 import img4 from '../../public/images/caliper.PNG'
 import img6 from '../../public/images/suspension.JPG'
 import img7 from '../../public/images/modi.JPG'
 import img8 from '../../public/images/body-kit.jpg'
 import img9 from '../../public/images/wrap.JPG'
-import img10 from '../../public/images/new-rim.png'
 
-// import img11 from '../../public/images/calipers.png'
 
 export default function Services() {
-  return (
+return (
     <div className="container">
     <div className="flex flex-wrap -mx-4">
     <div className="w-full px-4">
@@ -30,7 +28,7 @@ export default function Services() {
         <div className=" md:w-1/2 lg:w-1/3 px-4 w-4/5 mx-auto ">
             <div className=" p-10 md:px-7 xl:px-10 rounded-[20px] bg-gray-200 shadow-md hover:shadow-lg mb-8 border shadow-slate-400">
             <a href='https://www.instagram.com/p/CGGhcHClqCz/' target="_blank" rel="noopener noreferrer" className="w-[180px] h-[120px] flex items-center justify-center mx-auto bg-primary rounded-2xl mb-8">
-                <Image className=" " src={img10} width={160} height={50} alt="Card image"/>
+                <Image className="" src={img3} width={160} height={50} alt="Card image"/>
             </a>
             <h4 className="font-semibold text-xl text-dark mb-3">
                 RIM PAINTING
