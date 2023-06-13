@@ -1,11 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
-import img3 from '../../public/images/new-rim.png'
-import img4 from '../../public/images/caliper.png'
-import img6 from '../../public/images/suspension.jpg'
-import img7 from '../../public/images/modi.jpg'
-import img8 from '../../public/images/body-kit.jpg'
-import img9 from '../../public/images/wrap.jpg'
+
 
 export default function Services() {
 return (
