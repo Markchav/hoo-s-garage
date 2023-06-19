@@ -17,7 +17,7 @@ export default function HomePage() {
   return (
     <div className='bg-gray-200'>
     <div id='home' className='widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8'>
-    <div><nav className='fixed w-full left-0 z-10 shadow sm:dark:bg-black dark:bg-black items-center justify-between flex'>
+    <div><nav className='fixed w-full left-0 z-10 shadow sm:bg-black bg-black items-center justify-between flex'>
             <div className='flex m-auto p-4 sm:p-6 capitalize space-x-10'>
             <h1 className="text-3xl font-medium sm:ml-8 text-white ">
             <a href="#home" className='flex justify-center items-center space-x-5'>
