@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaInstagram} from 'react-icons/fa'
 import {FaTiktok} from 'react-icons/fa'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export default function Footer() {
 return (
@@ -10,7 +10,7 @@ return (
     <div className="max-w-screen-xl mx-auto py-10 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-[300px] sm:h-44">
         <div className="mb-8 sm:mb-0">
-        <Link href='https://www.instagram.com/direct/t/105483564324974' target="_blank" rel="noopener noreferrer" className="underline  text-lg font-medium mb-2">Book With Us</Link>
+        <a href="https://www.instagram.com/hoosgarage/" target="_blank" rel="noopener noreferrer" className="underline  text-lg font-medium mb-2">Contact Us</a>
         <p className="">Dm us and plan the perfect reparations ! We provide everything you need to make your Car memorable</p>
         </div>
         <div className="mb-8 sm:mb-0">
