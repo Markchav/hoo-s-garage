@@ -4,6 +4,7 @@ import Image from 'next/image';
 import img8 from '../../public/images/body-kit.jpg'
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import tesla from '/public/images/tesla.jpeg'
 
 export default function Work() {
 return (
@@ -14,13 +15,13 @@ return (
         <div className='max-w-full h-auto mt-8'>
         <Carousel showArrows={true} showIndicators={true} showThumbs={false} infiniteLoop={true} dynamicHeight={false} showStatus={false} autoPlay className=' mx-auto sm:w-[700px]  object-contain'>
     <div>
-        <Image src={img8} alt='' width={600} height={400} className='sm:h-[530px]'/>
+        <Image src={tesla} alt='' width={600} height={400} className='sm:h-[600px]'/>
     </div>
     <div>
-        <Image src={img8} alt='' width={600} height={400} className='sm:h-[530px]'/>
+        <Image src={img8} alt='' width={600} height={400} className='sm:h-[600px]'/>
     </div>
     <div>
-        <Image src={img8} alt='' width={600} height={400} className='sm:h-[530px]'/>
+        <Image src={img8} alt='' width={600} height={400} className='sm:h-[600px]'/>
     </div>
     </Carousel>
     </div>

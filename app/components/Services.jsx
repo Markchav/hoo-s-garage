@@ -17,8 +17,8 @@ return (
             {/* <span className="font-semibold text-lg text-primary mb-2 block">
             Our Services
             </span> */}
-            <h2 className="font-bold text-3xl sm:text-4xl md:text-[36px] text-dark mb-4 ">
-                Services Offered
+            <h2 className="font-bold text-3xl sm:text-4xl md:text-[36px] text-dark mb-4 sm:w-96">
+                SERVICES OFFERED
             </h2>
 
         </div>
@@ -34,7 +34,7 @@ return (
                 RIM PAINTING
             </h4>
             <p className="text-body-color">
-            A thorough inspection of your rims to assess their condition and identify any imperfections such as scratches,chips,or corrosion.
+            A thorough inspection of your rims to assess their condition and identify any imperfections such as scratches,chips,or corrosion
             </p>
             </div>
         </div>
@@ -60,7 +60,7 @@ return (
             BRAKES AND SUSPENSION  
             </h4>
             <p className="text-body-color">
-            Ensures your vehicle&apos;s safety, stability, and optimal performance on the road, providing expert care and maintenance for your vehicle.
+            Ensures your vehicle&apos;s safety, stability, and optimal performance on the road, providing expert care and maintenance for your vehicle
             </p>
         </div>
         </div>
@@ -73,7 +73,7 @@ return (
             PERFORMANCE MODIFICATIONS
             </h4>
             <p className="text-body-color">
-            We specialize in enhancing your vehicle&apos;s power, speed, and overall performance, providing an exhilarating driving experience like no other.
+            We specialize in enhancing your vehicle&apos;s power, speed, and overall performance, providing an exhilarating driving experience like no other
             </p>
         </div>
         </div>
@@ -86,7 +86,7 @@ return (
             BODY AND LIT KITS
             </h4>
             <p className="text-body-color">
-            Transform the look of your vehicle with our body and lip kits, designed to enhance its aesthetics and give it a unique and stylish appearance. 
+            Transform the look of your vehicle with our body and lip kits, designed to enhance its aesthetics and give it a unique and stylish appearance
             </p>
         </div>
     </div>

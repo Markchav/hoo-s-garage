@@ -14,7 +14,7 @@ export default function Navbar() {
 return (
     <div>
     {/* fixed or sticky maybe top-1*/}
-    <nav className='fixed w-full left-0 z-10 shadow sm:dark:bg-black dark:bg-black items-center justify-between flex'>
+    <nav className='fixed w-full left-0 z-10 shadow sm:dark:bg-black bg-black items-center justify-between flex'>
             <div className='flex m-auto p-4 sm:p-6 capitalize space-x-10'>
             <h1 className="text-3xl font-medium sm:ml-8 text-white ">
             <a href="#home" className='flex justify-center items-center space-x-5'>
@@ -50,16 +50,24 @@ return (
             :'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-transparent text-center ease-in duration-300'} >
             <ul className='px-10 items-center justify-between flex flex-col gap-5 text-lg'>
                 <li onClick={handleNav} className=''>
-                <a href="#home" className="text-gray-700 hover:text-gray-900">Home</a>
+                <a onClick={() =>
+											document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
+										} className="text-gray-700 hover:text-gray-900">Home</a>
                 </li>
                 <li onClick={handleNav} className=''>
-                <a href="#services" className="text-gray-700 hover:text-gray-900">Services</a>
+                <a onClick={() =>
+											document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })
+										} className="text-gray-700 hover:text-gray-900">Services</a>
                 </li>
                 <li onClick={handleNav} className=''>
-                <a href="#ourwork" className="text-gray-700 hover:text-gray-900">Our Work</a>
+                <a onClick={() =>
+											document.getElementById('ourwork')?.scrollIntoView({ behavior: 'smooth' })
+										} className="text-gray-700 hover:text-gray-900">Our Work</a>
                 </li>
                 <li onClick={handleNav} className=''>
-                <a href="#contact" className="text-gray-700 hover:text-gray-900">Contact</a>
+                <a onClick={() =>
+											document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+										} className="text-gray-700 hover:text-gray-900">Contact</a>
                 </li>
             </ul>
             </div>

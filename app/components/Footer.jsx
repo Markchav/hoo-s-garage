@@ -24,7 +24,7 @@ return (
         </ul>
         <h3 className="text-lg font-medium mb-2">Email:</h3>
         <ul>
-            <li className="mb-2"><a href="mailto:picnicsoflo7@gmail.com" className='underline'>HoosGarage.com</a></li>
+            <li className="mb-2"><a href="mailto:tyler11hoo@gmail.com" className='underline'>tyler11hoo@gmail.com</a></li>
         </ul>
         </div>
         <div className="mb-8 sm:mb-0">
